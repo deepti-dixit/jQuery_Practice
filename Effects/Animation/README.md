@@ -4,6 +4,12 @@ stop() — Stop animation on user hover
 finish() — Skip to final animation state instantly
 
 ---
+## Use of Methods
+animate() – Runs a custom animation on CSS properties.
+stop() – Stops the current animation immediately.
+finish() – Instantly completes all animations and jumps to the final state.
+
+---
 
 ## Methods Covered
 
@@ -23,7 +29,3 @@ $(selector).stop(clearQueue, jumpToEnd);
 $(selector).finish();
 
 
-## Use of Methods
-animate() – Runs a custom animation on CSS properties.
-stop() – Stops the current animation immediately.
-finish() – Instantly completes all animations and jumps to the final state.
